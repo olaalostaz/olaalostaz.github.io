@@ -1,0 +1,279 @@
+/* Index (page1) */
+body{
+    background-color:#FDDAB3;
+}
+#h1{
+    text-decoration: underline dashed #6C1A20;
+    color: #6C1A20;
+    width: auto;
+    float: left;
+    margin-right: 190px;
+
+
+}
+
+/* #name{
+color: #6C1A20;
+  font-size: 33px;
+  font-weight: bold;
+  text-align: center; 
+  margin-top: 80px;  
+} */
+#programming{
+ width: 80%;
+ 
+}
+#head1{
+    display: flex;
+}
+.list1{
+    width: 60%;
+    float: right;
+    display: flex;
+    list-style-type: none;
+     box-shadow: 2px 2px 5px 5px #6C1A20 ;
+     /* padding-bottom: 20px; */
+     /* padding-right: 0px; */
+
+}
+#one{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.list1 a:link{
+    color: #6C1A20;
+}
+.list1 a:hover{   /*  printer in the kink :  */
+    color: cyan;
+}
+.list1 a:visited{   /*  Opening link : */
+    color: #3b8f26;
+}
+
+.list1 a:focus{ /*  focus link :  */
+    color: chocolate;
+}
+
+
+.btn {
+    background-color:#3f1d20;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+#footer{
+    color: #6C1A20;
+
+}
+
+/* About (page2) */
+
+#h2{
+    /* text-align: left; */
+    /* width: 40%; */
+    display: flex;
+    padding: 5px;
+    box-shadow: 2px 2px 5px 5px #6C1A20 ;
+
+}
+#h{
+    color: #2c1416;
+    text-decoration: underline double #2c1416;
+
+    width: 100%;
+    font-size: 29px;
+}
+#rightimg{
+    float: right;
+    height: 90px;
+    width: 90px;  
+   margin-top: 50px;
+}
+#about{
+color: #251214;
+    font-size: 19px;
+width: 70%;
+text-align: left;
+margin-right: 70px;
+}
+
+.Eduction{
+    font-size: 19px;
+    color: #2c1416;
+    padding: 5px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 5px 5px #6C1A20 ;
+    width: 50%;
+    float: left;
+    text-align: left;
+    
+}
+.Cartifcatios{
+    font-size: 19px;
+    color: #2c1416;
+    padding: 5px;
+    margin-top: 40px;
+    box-shadow: 2px 2px 5px 5px #6C1A20 ;
+    width: 30%;
+   float: right;
+   
+}
+
+footer{
+    margin-top: 300px;
+    color: #2c1416;
+
+}
+.center{
+    font-size: 19px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px 5px #6C1A20 ;
+    text-align: center;
+
+}
+
+
+
+
+
+/* Html tages And Css tages (page3) */
+/* .body{
+    border:5px solid #251214;
+
+}
+#htm{
+  margin: 5px;
+    border:1px solid #251214;
+
+}
+aside{
+    float:left;
+    width:20%;
+    margin:25; }
+    section #htm{
+        float:right;
+        width:70%;
+        margin:25px; } */
+ 
+.body{
+    margin: 5px;
+    border: #251214 solid 3px;
+}
+#center1{
+    border: #251214 solid 3px;
+margin: 20px;
+text-align: center;
+}
+.main{
+    display: inline-block;
+    /* border: #251214 solid 3px; */
+    margin: 15px;
+
+}
+#left{
+    float: left;
+    width:50%;
+    padding-right: 300px;
+    text-align: center;
+    margin: 2px;
+    border: #251214 solid 3px;
+
+
+}
+#right{
+    
+        border: #251214 solid 3px;
+       text-align: center;
+       margin: 15px;
+       float: right;
+       width:40%;
+margin-top: 0px;
+padding-bottom: 70px;
+}
+
+
+
+
+
+
+/* Projects (page4) */
+
+
+
+
+
+
+
+
+/* Contact (Page5) */
+
+/* #main{    margin-top: 150px;
+
+ }
+ .list4{
+
+    display: flex;
+    flex-direction: row;
+    
+    /* justify-content: space-evenly; 
+    justify-content:center;
+    align-items:center; 
+    /* flex-wrap: wrap-reverse; 
+ }    */
+    
+    #main{
+    margin-top: 150px;
+    
+}
+#head4{
+    text-align: center;
+    text-decoration: underline;
+color:   #6C1A20;
+;
+}
+.list4{
+    display: flex;
+    justify-content:center;
+    list-style-type: none;
+     box-shadow: 2px 2px 5px 5px #6C1A20 ;
+     padding-bottom: 20px;
+     padding-right: 0px;
+}
+li a{  
+    text-decoration: none;
+  
+}
+.list4 a:hover{
+    color: rgb(172, 172, 13);
+}
+.list4 a:visited{
+    color: #e90f0f;
+}
+
+.list4 a:focus{
+    color: chocolate;
+}
+
+#img{
+    display:flex;
+    width: 40px;
+    margin-right: 60px;
+  
+    padding: 20px;
+    padding-right: 15px;
+}
+#img1{
+    display:flex;
+    width: 55px;
+    margin-right: 60px;
+    padding: 12px;
+    padding-right: 15px;
+}
